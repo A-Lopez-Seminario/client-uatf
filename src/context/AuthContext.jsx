@@ -27,7 +27,7 @@ export const AuthProvider = ({ children }) => {
 
   const cargarPerfil = async () => {
     try {
-      const perfil = await obtenerPerfil(token);
+      const perfil = await obtenerPerfil();
       setUsuario(perfil);
     } catch (error) {
       console.error('Error al cargar perfil:', error);
