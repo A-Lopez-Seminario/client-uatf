@@ -31,7 +31,7 @@ export default function Login() {
           <div className="bg-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
             <Lock className="w-10 h-10 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">UATF Potosí</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">UATF GESTION CURRICULAR</h1>
           <p className="text-gray-600">Sistema de Gestión Curricular</p>
         </div>
 
